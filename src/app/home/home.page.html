@@ -7,14 +7,12 @@
 </ion-header>
 
 <ion-content padding>
-<button ion-button (click)="load()" round>
-Load Data
-</button>
+
 <ion-list>
 <ion-list-header color="tertiary">
 <ion-label>Random Users List after load data clicked</ion-label>
 </ion-list-header>
-<ion-item *ngFor="let x of users;let i=index" >
+<ion-item *ngFor="let x of usersList;let i=index" >
  <ion-avatar >
  <img [src]="x.picture.large">
 </ion-avatar>
