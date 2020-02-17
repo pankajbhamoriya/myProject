@@ -9,7 +9,6 @@
 <ion-content padding>
 
 <button (click)="load()" ion-button>Load Data</button>
-  </ion-header>
 <ion-list>
 <ion-list-header color="tertiary">
 <ion-label>Random Users List</ion-label>
@@ -25,5 +24,19 @@
 </ion-label>
 </ion-item>
 </ion-list>
-
+<ion-list>
+<ion-list-header color="tertiary">
+<ion-label>Random Users List after load data clicked</ion-label>
+</ion-list-header>
+<ion-item *ngFor="let x of users;let i=index" >
+ <ion-avatar >
+ <img [src]="x.picture.large">
+</ion-avatar>
+<ion-label>
+<h3>{{x.name.title}}. {{x.name.first}}</h3>
+<p>{{x.email}}</p>
+<p>{{x.registered.date}}</p>
+</ion-label>
+</ion-item>
+</ion-list>
 </ion-content>
