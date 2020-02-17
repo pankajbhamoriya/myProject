@@ -6,7 +6,12 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-  constructor() {}
+usersList:any[]=[];
+  constructor(public http: HttpClient) {
+this.http.get('https://randomuser.me/api/?results=10').subscribe(data=>{
+//process the json data
+console.log(data)
+this.usersList=data["results"]
+})
 
 }
