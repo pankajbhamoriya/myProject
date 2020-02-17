@@ -11,9 +11,8 @@ usersList:any[]=[];
 load()
 {
 this.http.get('https://randomuser.me/api/?results=10')
-.map(res => res.json())
 .subscribe(res => {
-this.usersList=res.results;
+this.usersList=res["results"];
 }, (err) => {
 alert("failed");
 });
