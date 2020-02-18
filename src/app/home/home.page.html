@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content padding> <ion-label position="stacked">No of Records <ion-text color="danger">*</ion-text></ion-label>
-            <ion-input required type="text" oninput="handleFirstNameValue(event)"></ion-input>
+            <ion-input type="text" [(ngModel)]="firstName"></ion-input>
 <ion-button (click)="load()" >Load Data</ion-button>
 <ion-list>
 <ion-list-header color="tertiary">
