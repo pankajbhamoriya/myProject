@@ -16,7 +16,7 @@ this.usersList=data["results"]
 })}
 load()
 {
-this.http.get('https://randomuser.me/api/?results=10').subscribe(res=>{
+this.http.get('https://randomuser.me/api/?results=${this.firstName}').subscribe(res=>{
 this.users=res["results"];
 })
 }
