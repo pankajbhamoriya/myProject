@@ -19,4 +19,7 @@ this.http.get('https://randomuser.me/api/?results=10').subscribe(res=>{
 this.users=res["results"];
 })
 }
+handleFirstNameValue(event) {
+      firstName = event.target.value;
+    }
 }
