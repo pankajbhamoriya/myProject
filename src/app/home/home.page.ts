@@ -21,6 +21,6 @@ this.users=res["results"];
 })
 }
 handleFirstNameValue(event) {
-      firstName = event.target.value;
+      this.firstName = event.target.value;
     }
 }
