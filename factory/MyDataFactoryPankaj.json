@@ -1,0 +1,9 @@
+{
+	"name": "MyDataFactoryPankaj",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4973c6fb-f752-4db8-be95-09b7b5031cc7",
+		"tenantId": "2c631f90-6a65-4bb3-a626-c0f6f5790a9a"
+	}
+}
