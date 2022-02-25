@@ -14,7 +14,7 @@
 				"folderPath": "mylogfiles",
 				"container": "myblob"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": " ",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
