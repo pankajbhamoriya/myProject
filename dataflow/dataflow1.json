@@ -6,7 +6,7 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "DelimitedText1",
+						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
 					},
 					"name": "source1"
