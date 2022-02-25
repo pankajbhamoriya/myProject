@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "ZSATunnel_2022-02-25-06-20-17.290398.log",
+				"fileName": "ZSATrayManager_2022-02-25-06-19-26.878172.log",
 				"folderPath": "mylogfiles",
 				"container": "myblob"
 			},
